@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* reset */
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%
+}
+
+body {
+    _height: 100%
+}
+
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, iframe, pre, code, fieldset, legend, form, input, select, textarea, button, p, blockquote, th, td, figure {
+    margin: 0;
+    padding: 0
+}
+
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, iframe, pre, code, fieldset, legend, form, p, blockquote, figure, header, footer, nav, article, section, aside, address, figcaption {
+    *zoom: 1
+}
+
+li {
+    list-style-type: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%
+}
+
+iframe, frame, fieldset, img {
+    border: 0 none
+}
+
+img {
+    vertical-align: middle;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    cursor: pointer
+}
+
+button {
+    cursor: pointer
+}
+
+input, textarea, button {
+    -webkit-border-radius: 0;
+    -webkit-appearance: none
+}
+
+input[type=radio] {
+    -webkit-border-radius: 100%;
+    -webkit-appearance: radio
+}
+
+input[type=checkbox] {
+    -webkit-appearance: checkbox
+}
+
+input[type=search] {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+textarea {
+    overflow: auto;
+    resize: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption, th {
+    text-align: left
+}
+
+th {
+    font-weight: normal
+}
+
+em, cite, address, i {
+    font-style: normal
+}
+
+sup {
+    vertical-align: text-top
+}
+
+sub {
+    vertical-align: text-bottom
+}
+
+body, input, select, button, textarea {
+    font-size: 14px;
+    font-family: "Microsoft Yahei", "微软雅黑", arial, "\5b8b\4f53";
+}
+
+body {
+    line-height: 1.5;
+    color: #333
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #1970c8;
+}
+
+a {
+    blr: expression(this.onFocus=this.blur())
+}
+
+a * {
+    *cursor: pointer
+}
+
+:focus {
+    outline: none
+}
+
+.fl {
+    float: left
+}
+
+/*空div元素清除浮动样式*/
+.cl {
+    display: block !important;
+    float: none !important;
+    clear: both;
+    width: auto !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    max-height: none !important;
+    min-height: 0 !important;
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 none !important;
+    font-size: 0 !important;
+    line-height: 0 !important
+}
+
+.clear:after {
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both
+}
+
+/*reset end*/

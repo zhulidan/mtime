@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Mtime时光网：让电影遇见生活</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="headTop">
+    <div class="header">
+        <div class="head clear">
+            <ul class="navL clear">
+                <li class="cur"><a href="index.html">首页<i></i></a></li>
+                <li><a href="#">购票<i></i></a></li>
+                <li><a href="#">正版商城<i></i><em></em></a></li>
+                <li><a href="#">新闻<i></i></a></li>
+                <li><a href="#">发现<i></i></a></li>
+                <li><a href="#">社区<i></i></a></li>
+            </ul>
+            <h3><a href="index.html"></a></h3>
+
+            <div class="headBox">
+                <span class="line"></span>
+
+                <div class="headLogin">
+                    <a href="javascript:;" id="headLogin">登录<i></i></a>
+                    <em></em>
+                    <a href="login.html">注册</a>
+                </div>
+                <div class="loginTip" id="loginBox">
+                    <dl>
+                        <dt><b>为爱电影的人</b>For people who love movies</dt>
+                        <dd>
+                            <ul id="loginDec">
+                                <li><label></label><input value="输入电子邮箱/手机号" id="email_text"><span></span></li>
+                                <li><label class="password"></label><input value="" type="password" id="home_pw"><span></span></li>
+                            </ul>
+                            <p>
+                                <a href="#">忘记密码</a>
+                                <i id="saveName"></i>下次自动登录
+                            </p>
+
+                            <div><a href="javascript:;" id="home_login">登录</a><a href="#" class="grey">成为会员</a></div>
+                        </dd>
+
+                    </dl>
+                    <div class="otherlogin">
+                        <h4>使用第三方登录</h4>
+
+                        <p><a href="#" class="sina"></a><a href="#" class="QQ"></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="headBox" id="appDown">
+                <span class="line"></span>
+
+                <div class="qrCode">
+                    <a href="#">
+                        <i></i>
+                        <b></b>
+                        <em></em>
+                    </a>
+                </div>
+                <div class="qrCur">
+                    <a href="#"></a>
+
+                    <p>扫描下载客户端</p>
+                </div>
+            </div>
+            <div class="shopCar" id="shopCar">
+                <span></span>
+                <em>0</em>
+
+                <div class="carCur">
+                    <p class="tip">您的购物车还是空的，赶快选购哦。</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="register">
+    <div class="regOuter">
+        <div class="regLine"></div>
+        <div class="regCon clear">
+            <div class="regEnroll">
+                <h5>新会员注册</h5>
+                <ul class="clear" id="loginTab">
+                    <li class="on">手机注册</li>
+                    <li>邮箱注册</li>
+                </ul>
+                <div class="regEnrDec">
+                    <div class="regEnrWrap" id="regBox">
+                        <dl>
+                            <dd>
+                                <div class="regEnrTxt">
+                                    <input type="text" value="" id="regPhone"/>
+                                    <label for="regPhone">常用手机号</label>
+                                    <p class="reg_err">请输入有效的手机号</p>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="regEnrTxt">
+                                    <input type="text" value="" id="reg_pw1"/>
+                                    <label for="reg_pw1">密码 (6-20位字母与数字、符号组合)</label>
+                                    <p class="reg_err">请输入密码 (6-20位字母与数字、符号组合)</p>
+                                    <div class="password " id="pw_safe" >
+                                        <p>密码强度</p>
+                                        <p >
+                                            <i class="pas1"></i>
+                                            <i class="pas2"></i>
+                                            <i class="pas3"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="regEnrTxt">
+                                    <input type="text" value="" id="reg_pw2"/>
+                                    <label for="reg_pw2">确认密码</label>
+                                    <p class="reg_err">请输入确认密码</p>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="regEnrTxt">
+                                    <input type="text" value="" id="short_messge"/>
+                                    <label for="short_messge">短信验证码</label>
+                                    <p class="reg_err">请输入4位数字验证码</p>
+                                    <a href="#" class="verifyCode">获取验证码</a>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="regSex" id="regSex">
+                                    性别：
+                                    <span><i></i>男<em></em></span>
+                                    <span><i></i>女<em class="female"></em></span>
+                                    <p>请选择性别!</p>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="regClause ">
+                                    <span class="on" id="protocol"></span>
+                                    <a href="#">已同意《Mtime时光网服务条款》</a>
+                                </div>
+                            </dd>
+                            <dt><a href="javascript:;" id="register">注 册</a></dt>
+                        </dl>
+                    </div>
+                    <div class="regEnrWrap"  id="e_regBox" style="display: none">
+                        <dl>
+                            <dd>
+                                <div class="regEnrTxt">
+                                    <input type="text" value="" id="reg_email"/>
+                                    <label for="reg_email">填个常用邮箱作为登录账号</label>
+                                    <p class="reg_err">请输入有效的邮箱地址</p>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="regEnrTxt">
+                                    <input type="text" value="" id="reg_ePW1"/>
+                                    <label for="reg_ePW1">密码 (6-20位字母与数字、符号组合)</label>
+                                    <p class="reg_err">请输入密码 (6-20位字母与数字、符号组合)</p>
+                                    <div class="password" id="reg_eSafe">
+                                        <p>密码强度</p>
+                                        <p>
+                                            <i class="pas1"></i>
+                                            <i class="pas2"></i>
+                                            <i class="pas3"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </dd>
+                            <dd>
+                                <div class="regEnrTxt">
+                                    <input type="text" value=""  id="reg_ePW2"/>
+                                    <label for="reg_ePW2">确认密码</label>
+                                    <p class="reg_err">请输入确认密码</p>
+                                </div>
+                            </dd>
+                            <dd class="clear">
+                                <div class="regEnrTxt reg_wid">
+                                    <input type="text" value="" id="eCode"/>
+                                    <label for="eCode">验证码</label>
+                                    <p class="reg_err">请输入正确的验证码</p>
+                                </div>
+                                <span>
+                                    <em id="eCodeCon">yyZ5</em><a href="javascript:;" id="refresh">刷新</a>
+                                </span>
+                            </dd>
+                            <dd>
+                                <div class="regClause ">
+                                    <span class="on" id="e_protocol"></span>
+                                    <a href="#">已同意《Mtime时光网服务条款》</a>
+                                </div>
+                            </dd>
+                            <dt><a href="javascript:;" id="e_reg">注 册</a></dt>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="regSign">
+                <h5>会员登录</h5>
+                <p>已有时光账号请在此登录</p>
+                <form action="" method="post" id="loginform">
+                    <dl>
+                        <dd>
+                            <div class="regEnrTxt">
+                                <input type="text" value="" id="login_name"/>
+                                <label for="login_name">输入电子邮箱地址/手机号</label>
+                                <p class="reg_err">请输入登录邮箱 / 手机号</p>
+                            </div>
+                        </dd>
+                        <dd>
+                            <div class="regEnrTxt">
+                                <input type="text" value="" id="login_pw"/>
+                                <label for="login_pw">确认密码</label>
+                                <p class="reg_err">请输入密码</p>
+                            </div>
+                        </dd>
+                        <dd>
+                            <div class="regSignIn">
+                                <a href="#">忘记密码</a>
+                                <span id="login_pro"></span>
+                                下次自动登录
+                            </div>
+                        </dd>
+                        <dt><a href="javascript:;" id="login_but">登 录</a> </dt>
+                    </dl>
+                </form>
+                <ul>
+                    <li><h4>使用第三方登录</h4></li>
+                    <li><a href="#" class="sina"></a><a href="#" class="QQ"></a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <span></span>
+    <div class="widArea foot clear">
+        <div class="fotLogo fl clear">
+            <div><a href="#"></a></div>
+            <ul class="clear">
+                <li><a href="#">加入我们</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">站务论坛</a></li>
+                <li><a href="#">问题反馈</a></li>
+                <li><a href="#">社区准则</a></li>
+                <li><a href="#">网站地图</a></li>
+                <li><a href="#">隐私政策</a></li>
+                <li><a href="#">English</a></li>
+            </ul>
+        </div>
+        <div class="fotNav fl">
+            <dl class="fl">
+                <dt> 栏目</dt>
+                <dd><a href="#">新闻</a></dd>
+                <dd><a href="#">影院</a></dd>
+                <dd><a href="#">商城</a></dd>
+                <dd><a href="#">社区</a></dd>
+            </dl>
+            <dl class="fl fotReco">
+                <dt> 推荐</dt>
+                <dd><a href="#">观影指南</a></dd>
+                <dd><a href="#">电影票房</a></dd>
+                <dd><a href="#">时光对话</a></dd>
+                <dd><a href="#">新片预告</a></dd>
+                <dd><a href="#">特色榜单</a></dd>
+                <dd><a href="#">电影猜猜猜</a></dd>
+                <dd><a href="#">全球拾趣</a></dd>
+                <dd><a href="#">卡片大富翁</a></dd>
+            </dl>
+            <dl class="fl">
+                <dt> 关注我们</dt>
+                <dd><a href="#" class="sina"></a></dd>
+                <dd><a href="#" class="weChat"></a></dd>
+                <dd><a href="#" class="member"></a></dd>
+            </dl>
+        </div>
+        <div class="fotWeekly fl">
+            <p class="clear">
+                <em>时光周刊</em>
+                <i>第174期</i>
+            </p>
+            <p>
+                <a href="#"><img src="images/fotImg.jpg"> </a>
+            </p>
+            <div><input type="text" value="邮箱地址" id="subscribe"/>
+                <a href="javascript:;" id="subBut">订阅</a></div>
+        </div>
+        <div class="fotWek fl">
+            <p><em>手机购票</em> 方便 实惠</p>
+            <a href="#"></a>
+            <p>扫描二维码 下载客户端</p>
+        </div>
+    </div>
+    <div class="widArea fotCopy">
+        <p><span>北京动艺时光网络科技有限公司</span><span>Copyright 2006-2016 Mtime.com Inc. All rights reserved.</span></p>
+        <p>
+            <a href="#">京ICP证050715号</a>
+            <a href="#">网络视听许可证0108265号</a>
+            <a href="#">网络文化经营许可证</a>
+            <a href="#">广播电视节目制作经营许可证(京)字第1435号</a>
+            <span>京公网安备：110105000744号</span>
+        </p>
+        <div>
+            <a href="#" class="copyLeft"></a>
+            <a href="#" class="copyRight"></a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" charset="utf-8" src="js/utils.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/tween.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/login.js"></script>
+<script>
+    homePage.appShow("appDown");
+    homePage.headLogin("headLogin", "loginBox");
+    login.homeUser("email_text");
+    login.homePW("home_pw");
+    login.lightOpen("saveName");
+    login.homeLogin("home_login","loginBox");
+    homePage.shopCar("shopCar");
+    homePage.tabChange("loginTab", "on","click");
+    homePage.inpFocusBlur("subscribe");
+    homePage.subscribe("subBut");
+    login.registerPhone("regPhone");
+    login.registerPW("reg_pw1", "pw_safe");
+    login.confirmPW("reg_pw2", "pw_safe");
+    login.message("short_messge");
+    login.registerSex("regSex");
+    login.lightOff("protocol");
+    login.register("register");
+    login.registerEmail("reg_email");
+    login.registerPW("reg_ePW1", "reg_eSafe");
+    login.registerPW("reg_ePW2", "reg_eSafe");
+    login.eMailCode("eCode");
+    login.getCode("refresh");
+    login.lightOff("e_protocol");
+    login.eRegister("e_reg","e_regBox");
+    login.loginName("login_name");
+    login.loginPW("login_pw");
+    login.lightOpen("login_pro");
+    login.eRegister("login_but","loginform");
+</script>
+</body>
+</html>

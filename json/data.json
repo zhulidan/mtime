@@ -1,0 +1,92 @@
+{
+  "banner": [
+    {
+      "imgSrc": "images/banner_01.jpg"
+    },
+    {
+      "imgSrc": "images/banner_02.jpg"
+    },
+    {
+      "imgSrc": "images/banner_03.jpg"
+    },
+    {
+      "imgSrc": "images/banner_04.jpg"
+    }
+  ],
+  "todayHot": [
+    {
+      "imgSrc": "images/hotNew1.jpg",
+      "title": "动画片《我叫MT》提档6月17日",
+      "content": "避开\"独立日2\" 柳岩化身\"傻馒\"献唱主题曲"
+    },
+    {
+      "imgSrc": "images/hotNew2.jpg",
+      "title": "正义联盟》发布logo和剧情梗概",
+      "content": "将不分上下集上映 档期为2017.11.17"
+    },
+    {
+      "imgSrc": "images/hotNew3.jpg",
+      "title": "香港导演何藩去世享年84岁",
+      "content": "曾服务邵氏多年 同时享誉国际摄影界"
+    },
+    {
+      "imgSrc": "images/hotNew4.jpg",
+      "title": "韩国电影《哭声》将举行中国首映",
+      "content": "闭幕FIRST青年影展 导演罗泓轸亲临现场"
+    },
+    {
+      "imgSrc": "images/hotNew5.jpg",
+      "title": "专访“绿箭侠”斯蒂芬·阿梅尔",
+      "content": "会对该剧不离不弃 \"说不定拍到第十季\""
+    },
+    {
+      "imgSrc": "images/hotNew6.jpg",
+      "title": "安东·尤金夺命爱车四月曾被召回",
+      "content": "去年款吉普大切诺基存在驻车后滑移隐患"
+    },
+    {
+      "imgSrc": "images/hotNew7.jpg",
+      "title": "今年\"国产电影保护月\"消失了？",
+      "content": "\"神龟2\"等分账片定档七八月 国产片或受冲击"
+    },
+    {
+      "imgSrc": "images/hotNew8.jpg",
+      "title": "《在世界中心呼唤爱》定档8月26日",
+      "content": "郭在容称似\"爱有天意\" 力保欧豪跨龄出演"
+    }
+  ],
+  "ticket": [
+    {
+      "imgSrc": "images/move_1.jpg",
+      "secore": "7.7",
+      "name": "X战警：天启",
+      "run": "06月03日上映 - ",
+      "type1": "动作",
+      "type2": "冒险",
+      "time": "144分钟 - 3D/IMAX3D/…",
+      "dec": "凤凰女嗷嗷两声搞定一切",
+      "priceNum": "29",
+      "price": "元起",
+      "ticket": "选座购票"
+    },
+    {
+      "imgSrc": "images/move_2.jpg",
+      "secore": "7.7",
+      "name": "爱丽丝梦游仙…",
+      "run": "05月27日上映",
+      "type": "冒险/家庭",
+      "time": "113分钟",
+      "dec": "高分给情怀超心疼时间",
+      "priceNum": "25",
+      "price": "元起",
+      "ticket": "选座购票"
+    },
+    {
+      "imgSrc": "images/move_3.jpg"
+    },
+    {
+      "imgSrc": "images/move_4.jpg"
+    }
+  ]
+}
+

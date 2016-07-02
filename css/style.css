@@ -1,0 +1,2678 @@
+
+img {
+    width: 100%;
+}
+
+.headTop {
+    width: 100%;
+    height: 60px;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    background: #192332;
+}
+
+.header_mini {
+    position: relative
+}
+
+.header .head {
+    min-width: 1092px;
+    position: relative;
+    height: 60px;
+    padding: 0 88px 0 20px;
+    color: #c8c8c8;
+    font-size: 15px;
+}
+
+.header .navL {
+    float: left;
+    height: 60px;
+}
+
+.header .navL li {
+    float: left;
+}
+
+.navL li a, .header .headLogin a {
+    color: #c8c8c8;
+}
+
+.navL li a {
+    height: 100%;
+    display: block;
+    margin-right: 30px;
+    line-height: 60px;
+    position: relative;
+}
+
+.navL li a i, .headBox .qrCode i, .headLogin a i {
+    width: 0;
+    border-bottom: 5px solid #fff;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -7px;
+    display: none;
+}
+
+.navL li a em {
+    width: 28px;
+    height: 14px;
+    display: block;
+    background: url("../images/head.png") no-repeat -165px 0;
+    position: absolute;
+    top: 15px;
+    right: -26px;
+}
+
+.navL li a:hover, .header .headLogin a:hover {
+    color: #fff;
+}
+
+.navL li.cur a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navL li.cur a i {
+    display: block;
+}
+
+.header h3 {
+    width: 136px;
+    height: 42px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -21px 0 0 -68px;
+}
+
+.header h3 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url("../images/head.png") no-repeat 0 0;
+}
+
+.header .headBox {
+    padding: 0 18px;
+    float: right;
+    position: relative;
+    z-index: 6;
+}
+
+.header .headLogin {
+    padding: 0 17px;
+}
+
+.header .headLogin a {
+    line-height: 60px;
+    display: inline-block;
+    position: relative
+}
+
+.headLogin a.cur i {
+    display: block
+}
+
+.header .headLogin em {
+    border-right: 1px solid #303947;
+    height: 16px;
+    margin-right: 23px;
+    width: 23px;
+    display: inline-block;
+}
+
+.header .loginTip {
+    width: 245px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .25);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    display: none
+}
+
+.header .loginTip dl {
+    z-index: 10;
+}
+
+.header .loginTip dt {
+    font-size: 16px;
+    color: #9b9b9b;
+    text-align: center;
+}
+
+.header .loginTip dt b {
+    display: block;
+    font-size: 22px;
+    font-weight: lighter;
+    color: #333;
+    padding-bottom: 3px;
+}
+
+.header .loginTip li {
+    border: 1px solid #9b9b9b;
+    height: 36px;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.header .loginTip li > span {
+    width: 13px;
+    height: 13px;
+    display: none;
+    background: url("../images/head.png") no-repeat -59px -120px;
+    margin-top: -6px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.header .loginTip label {
+    width: 55px;
+    height: 36px;
+    display: inline-block;
+    border-radius: 5px 0 0 5px;
+    background: url("../images/head.png") no-repeat 0 -75px #f9f9f9;
+    border-right: 1px solid #d7d7d7;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.header .loginTip label.password {
+    background: url("../images/head.png") no-repeat -58px -75px #f9f9f9;
+}
+
+.header .loginTip input {
+    width: 165px;
+    display: inline-block;
+    border: none;
+    background: 0 0;
+    font-size: 12px;
+    color: #949494;
+    padding: 0 5px;
+}
+
+.header .loginTip dd p {
+    margin: 10px 0 15px;
+    line-height: 24px;
+    color: #333;
+}
+
+.header .loginTip dd p > a {
+    float: right;
+}
+
+.header .loginTip dd i {
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    background: url("../images/head.png") no-repeat 0 -120px;
+    margin-right: 4px;
+    margin-top: -2px;
+    vertical-align: middle;
+}
+
+.header .loginTip dd i.on {
+    background-position: -28px -120px;
+}
+
+.header .loginTip dd > div {
+    z-index: 5;
+}
+
+.header .loginTip dd > div a {
+    width: 112px;
+    height: 30px;
+    display: inline-block;
+    background: #1e7dd7;
+    border-radius: 50px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+}
+
+.header .loginTip dd > div a:hover {
+    background: #1970c8;
+}
+
+.header .loginTip dd > div a.grey {
+    height: 28px;
+    border: 1px solid #d9d9d9;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+.header .loginTip dd > div a:hover.grey {
+    border-color: #1e7dd7;
+    background: #1e7dd7;
+    color: #fff;
+}
+
+.header .otherlogin {
+    background: #f5f5f5;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    margin: 20px -20px -20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.header .otherlogin h4 {
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+}
+
+.header .otherlogin p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.header .otherlogin p a {
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    background: url("../images/head.png") no-repeat;
+    margin: 0 13px;
+}
+
+.header .otherlogin p a.sina {
+    background-position: 0 -150px;
+}
+
+.header .otherlogin p a.QQ {
+    background-position: -44px -150px;
+}
+
+.headBox .line {
+    width: 0;
+    height: 60px;
+    border-left: 1px solid #141c28;
+    border-right: 1px solid #303947;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.headBox .qrCode {
+    height: 60px;
+}
+
+.headBox .qrCode a {
+    width: 100%;
+    height: 43px;
+    padding-top: 17px;
+    display: block;
+}
+
+.headBox .qrCode a.on i {
+    display: block;
+}
+
+.headBox .qrCode b {
+    width: 17px;
+    height: 26px;
+    display: block;
+    float: left;
+    background: url("../images/head.png") no-repeat -54px -45px;
+    margin-right: 10px;
+    vertical-align: middle;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.headBox .qrCode em {
+    width: 7px;
+    height: 4px;
+    display: block;
+    float: left;
+    background: url("../images/head.png") no-repeat -140px 0;
+    margin-top: 10px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.headBox .qrCode a:hover em, .headBox .qrCode a:hover b {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.headBox .qrCur {
+    width: 115px;
+    position: absolute;
+    top: 60px;
+    right: -20px;
+    background: #fff;
+    padding: 20px 25px;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+    display: none;
+}
+
+.headBox .qrCur a {
+    width: 115px;
+    height: 115px;
+    display: block;
+    background: url("../images/head.png") no-repeat 0 -195px;
+}
+
+.headBox .qrCur p {
+    margin-top: 10px;
+    color: #333;
+    line-height: 1;
+}
+
+.header .shopCar {
+    width: 68px;
+    height: 64px;
+    background-color: #e83729;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 5;
+}
+
+.header .shopCar span {
+    width: 30px;
+    height: 24px;
+    display: block;
+    background: url("../images/head.png") no-repeat 0 -45px;
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}
+
+.header .shopCar em {
+    width: 18px;
+    height: 18px;
+    display: block;
+    border: 3px solid #e83729;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    top: 9px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    color: #e83729;
+}
+
+.header .carCur {
+    width: 350px;
+    border-top: 3px solid #e83729;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    display: none;
+}
+
+.header .carCur p.tip {
+    padding: 100px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+
+.widArea {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.adArea img {
+    width: 100%;
+    height: 90px;
+    display: block;
+}
+
+/*--search--*/
+.topWrap {
+    height: 90px;
+    position: relative;
+    z-index: 4;
+}
+
+.topWrap > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url("../images/searBg.jpg") no-repeat;
+}
+
+.topWrap > .search {
+    width: 500px;
+    height: 38px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1) inset;
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    margin-left: -251px;
+    z-index: 6;
+}
+
+.topWrap .searLeft {
+    width: 100px;
+    float: left;
+    cursor: pointer;
+}
+
+.topWrap .searAll {
+    width: 100%;
+    text-align: center;
+    color: #999;
+    vertical-align: middle;
+    height: 45px;
+}
+
+.topWrap .searAll em {
+    width: 45px;
+    line-height: 38px;
+    display: inline-block;
+}
+
+.topWrap .searAll i {
+    width: 11px;
+    height: 7px;
+    display: inline-block;
+    background: url("../images/head.png") no-repeat -152px 0;
+    vertical-align: middle;
+}
+
+.topWrap .searAll span {
+    width: 0;
+    height: 14px;
+    display: inline-block;
+    border-right: 1px solid #dbdbdb;
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.topWrap .searList {
+    background: #fff;
+    width: 95px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+    position: absolute;
+    left: 0;
+    top: 41px;
+    display: none;
+    overflow: hidden;
+}
+
+.topWrap .searList li {
+    border-top: 1px solid #eee;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.topWrap .searList li:hover {
+    background: #e5f2fc;
+    color: #267dd7;
+}
+
+.search > form {
+    width: 68%;
+    padding: 7px 0;
+    height: 24px;
+    float: left;
+    overflow: hidden;
+}
+
+.search > form > input {
+    width: 320px;
+    height: 24px;
+    border: none;
+    line-height: 24px;
+    color: #a5a5a5;
+    background: transparent;
+}
+
+.search > a {
+    width: 54px;
+    height: 32px;
+    float: right;
+    margin: 3px 3px 0 0;
+    border-radius: 20px;
+    position: relative;
+}
+
+.search > a > i {
+    width: 19px;
+    height: 19px;
+    display: block;
+    background: url("../images/head.png") no-repeat -115px -45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -10px;
+}
+
+.search > a:hover, .search > a.on {
+    background: #1e7dd7;
+}
+
+.search > a:hover > i, .search > a.on > i {
+    background-position: -134px -45px;
+}
+
+/*--banner--*/
+.banner {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+}
+
+.banner .imgWrap {
+    width: 100%;
+    height: 360px;
+    position: relative;
+}
+
+.banner .imgWrap div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.banner > ul {
+    position: absolute;
+    bottom: 12px;
+    right: 30px;
+    z-index: 3;
+}
+
+.banner > ul > li {
+    width: 10px;
+    height: 10px;
+    float: left;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.banner > ul > li.bg {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.banner > a {
+    width: 48px;
+    height: 102px;
+    display: block;
+    background: url("../images/bannerBg1.png") repeat;
+    margin-top: -51px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.banner a em {
+    width: 21px;
+    height: 47px;
+    display: block;
+    background: url("../images/bannerBg.png") no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -24px 0 0 -11px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.banner > a.butLeft {
+    left: 0;
+}
+
+.banner > a.butLeft em {
+    background-position: 0 0;
+}
+
+.banner a.btnRight {
+    right: 0;
+}
+
+.banner > a.btnRight em {
+    background-position: -21px 0;
+}
+
+.banner > a:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.banner > a:hover em {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+/*--Today's hot spots--*/
+.hotWrap {
+    padding: 45px 0 25px;
+}
+
+.hotPoint {
+    overflow: hidden
+}
+
+.hotPoint h3 {
+    font-size: 28px;
+    padding-bottom: 15px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.hotPoint .hotNav {
+    width: 100%;
+    margin: 0 auto 19px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+.hotPoint .hotNav i {
+    width: 100%;
+    height: 1px;
+    background: #e5e5e5;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.hotPoint .hotNav dl {
+    background: #fff none;
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.hotPoint .hotNav dl dd {
+    border-left: 1px solid #e5e5e5;
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 0 25px;
+    display: inline;
+}
+
+.hotPoint .hotNav dl dd:first-child {
+    border-left: none;
+}
+
+.hotList ul {
+    width: 1220px;
+}
+
+.hotList ul li {
+    margin-right: 20px;
+    padding-bottom: 23px;
+    width: 285px;
+    float: left;
+}
+
+.hotList ul li a {
+    width: 100%;
+
+    display: block;
+    position: relative;
+}
+
+.hotList ul li a img {
+    width: 285px;
+    height: 140px;
+    display: block;
+}
+
+.banner .imgWrap {
+    background: url(../images/autoimg.png) center no-repeat #f2f2f2;
+    background-size: 20% auto;
+}
+
+.hotList ul li a img, .ticMovie img, .ticRel img, .adArea img, .mallPic img, .mallRec img, .mallShow img {
+    background: url(../images/autoimg.png) center no-repeat #f2f2f2;
+    background-size: 35% auto;
+    border: none;
+}
+
+.selTra img, .selGuide div img, .hotList ul li a img, .feaList li img, .feaBoxList dd img, .cinHot dt img, .cinHot dd > a img, .cinCommunity dd > a img, .fotWeekly p > a img {
+    background: url(../images/autoimg.png) center no-repeat #f2f2f2;
+    background-size: 35% auto;
+    border: none;
+}
+
+.mallShow img {
+    background-size: 45% auto;
+}
+
+.ticMovie img, .mallRec dt img {
+    background-size: 50% auto;
+}
+
+.ticRel img, .feaBoxList dd img, .cinHot dd > a img {
+    background-size: 55% auto;
+}
+
+.adArea img {
+    background-size: 11% auto;
+}
+
+.hotList ul li a i {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: url("../images/bannerBg.png") no-repeat 0 -47px;
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+}
+
+.hotList ul li a:hover i {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.hotList li h3 {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.hotList li h3 a:hover, .fotLogo ul li a:hover {
+    color: #1970c8
+}
+
+.hotList li p a {
+    color: #888;
+}
+
+.hotMore {
+    overflow: hidden;
+    height: 45px
+}
+
+.hotMore > a {
+    width: 158px;
+    height: 35px;
+    display: block;
+    margin: 8px auto 0;
+    color: #666;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #666;
+    border-radius: 20px;
+}
+
+.hotMore > a > em {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 6px;
+    background: url("../images/bannerBg.png") no-repeat -42px -21px;
+    margin-top: -3px;
+    vertical-align: middle
+}
+
+.hotMore > a:hover {
+    background-color: #1e7dd7;
+    color: #fff;
+    border: #1e7dd7;
+}
+
+.hotMore > a:hover > em {
+    background-position: -58px -26px;
+}
+
+/*--adArea--*/
+.adArea {
+}
+
+/*--The ticket--*/
+.ticket {
+    padding: 10px 0 50px;
+    position: relative;
+}
+
+.ticTitle {
+    border-bottom: 1px solid #e6e6e6;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ticTitle span {
+    font-size: 20px;
+    padding: 10px 0;
+    display: inline-block;
+    margin: 0 40px -1px;
+    cursor: pointer;
+}
+
+.ticTitle em {
+    font-size: 26px;
+    font-weight: 400
+}
+
+.ticTitle span.cur {
+    color: #fc6921;
+    border-bottom: 3px solid #fc6921
+}
+
+.ticList {
+    height: 291px;
+    padding-bottom: 35px
+}
+
+.ticList > div {
+    width: 100%;
+    position: relative;
+}
+
+.ticShaL, .ticShaR {
+    background: url(../images/bannerBg.png) -186px -245px no-repeat;
+    width: 7px;
+    height: 317px;
+    position: absolute;
+    top: -35px;
+    z-index: 4;
+}
+
+.ticList .ticShaL {
+    left: 0;
+    display: none;
+}
+
+.ticList .ticShaR {
+    background-position: -193px -245px;
+    right: 0;
+}
+
+.ticList .ticRel dl {
+    width: 6000px;
+    position: absolute;
+    left: 0;
+}
+
+.ticList .ticRel dt {
+    width: 305px;
+    margin-right: 15px;
+    float: left;
+}
+
+.ticList > div {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.ticList > div > a {
+    width: 32px;
+    height: 68px;
+    display: block;
+    background: url("../images/bannerBg1.png") repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -34px;
+    z-index: 1;
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+.ticList > div > a:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.ticList > div > a.ticLeft {
+    left: -35px;
+    display: none;
+}
+
+.ticList > div > a.ticRight {
+    right: -35px;
+}
+
+.ticList > div > a em {
+    width: 17px;
+    height: 36px;
+    display: block;
+    background: url(../images/bannerBg.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    margin: -18px 0 0 -9px;
+    z-index: 4;
+}
+
+.ticList > div > a.ticLeft em {
+    background-position: -155px 0;
+    left: 50%;
+}
+
+.ticList > div > a.ticRight em {
+    background-position: -138px 0;
+    left: 50%;
+}
+
+.ticMovie, .ticRel {
+    height: 256px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ticMovie dt {
+    width: 360px;
+    float: left
+}
+
+.ticMovie .moveL {
+    width: 170px;
+    float: left;
+    overflow: hidden;
+}
+
+.ticMovie a.moveItem {
+    display: block;
+    position: relative
+}
+
+.ticMovie a img {
+    display: block;
+    width: 170px;
+    height: 256px;
+}
+
+.ticMovie a.moveItem em {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background: url("../images/bannerBg.png") no-repeat -64px -103px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ticMovie a.moveItem i, .ticRel .priDec a i, .feaBoxList p em, .cinHotDec > div p em, .cinHot dd > div p em {
+    width: 32px;
+    height: 20px;
+    display: block;
+    background: #74ab34;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
+
+.ticMovie a.moveItem i, .ticRel .priDec a i {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.ticMovie .moveR {
+    width: 178px;
+    height: 256px;
+    float: left;
+    margin-left: 12px;
+    position: relative
+}
+
+.ticMovie .moveR h3 {
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+    padding-bottom: 20px
+}
+
+.ticMovie .moveR > p, .ticRel .priDec > p {
+    color: #777;
+    padding-bottom: 5px
+}
+
+.ticMovie .moveR span {
+    height: 70px;
+    display: block;
+    font-size: 15px;
+    color: #6ba22a;
+    line-height: 1.6;
+    padding-top: 5px;
+}
+
+.ticMovie .moveR span em {
+    width: 22px;
+    height: 16px;
+    display: inline-block;
+    background: url("../images/bannerBg.png") no-repeat -116px 0;
+    margin-right: 10px;
+}
+
+.ticMovie .moveR > div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.ticMovie .moveR > div a, .ticMovie dd > a, .ticRel .priDec > span > a {
+    width: 130px;
+    height: 32px;
+    display: block;
+    background: #1e7dd7;
+    font-size: 15px;
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.ticMovie .moveR > div a:hover {
+    background: #1870c9
+}
+
+.ticMovie .moveR > div > b {
+    height: 42px;
+    display: block;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    color: #fc6921;
+}
+
+.ticMovie .moveR > div > b i {
+    font-size: 32px;
+    font-weight: 400
+}
+
+.ticMovie dl {
+    width: 1800px;
+    position: absolute;
+    left: 0;
+}
+
+.ticMovie dd {
+    width: 140px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+}
+
+.ticMovie dd a.moveItem img {
+    width: 100%;
+    height: 190px;
+}
+
+.ticMovie dd > h4 {
+    padding-top: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.ticMovie dd > a {
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 6px
+}
+
+.ticMovie .moveDec {
+    width: 100%;
+    height: 180px;
+    position: absolute;;
+    top: 0;
+    left: 0;
+    background: url("../images/ticket_bg.png") repeat;
+    padding-top: 10px;
+    display: none;
+}
+
+.ticMovie .moveDec a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.ticMovie .moveDec p {
+    color: #979797;
+    font-size: 13px;
+    padding-left: 10px
+}
+
+.ticMovie p.movCon {
+    position: relative;
+    padding: 10px 10px 0 25px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.7;
+}
+
+.ticMovie p.movCon i {
+    width: 12px;
+    height: 9px;
+    display: block;
+    background: url("../images/bannerBg.png") no-repeat -114px -21px;
+    position: absolute;
+    left: 6px;
+    top: 12px;
+}
+
+.ticMovie p.movPri {
+    color: #fc6921;
+    text-align: center;
+    padding: 16px 0 0 0;
+}
+
+.ticMovie p.movPri em {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.ticRel dd {
+    float: left;
+    width: 305px;
+    margin-right: 15px;
+}
+
+.ticRel dd p.date {
+    font-size: 27px;
+    color: #afafaf;
+    line-height: 1;
+    padding-bottom: 15px;
+}
+
+.ticRel .priDec {
+    min-height: 190px;
+    position: relative;
+}
+
+.ticRel .priDec > a {
+    width: 125px;
+    height: 100%;
+    display: block;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+}
+
+.ticRel .priDec > a img {
+    width: 125px;
+    height: 190px;
+    display: block;
+}
+
+.ticRel .priDec > h3 {
+    line-height: 1.7;
+    padding: 5px 0;
+}
+
+.ticRel .priDec > h3 a {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ticRel .priDec > p {
+    padding-bottom: 2px;
+}
+
+.ticRel .priDec > p a {
+    color: #777;
+}
+
+.ticRel .priDec > p i {
+    color: #fc6921
+}
+
+.ticRel .priDec > p em {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../images/bannerBg.png") -17px -245px no-repeat;
+    vertical-align: middle;
+}
+
+.ticRel .priDec > span {
+    padding-top: 57px;
+    display: block;
+    float: left;
+}
+
+.ticRel .priDec > span > a {
+    width: 120px;
+    height: 28px;
+    background: #74ab34;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.ticRel .priDec > span > a:hover {
+    background: #5b9122;
+}
+
+/*--The original mall--*/
+.mall {
+    padding: 39px
+}
+
+.mallCon, .mallWrap {
+    width: 100%;
+}
+
+.mallCon {
+    padding-bottom: 10px;
+}
+
+.mallMenu {
+    width: 128px;
+    height: 378px;
+    float: left;
+    padding: 20px 25px 0;
+    border: 1px solid #e6e6e6;
+}
+
+.mallMenu li h3 {
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.mallMenu li h3 em {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.mallMenu li p {
+    padding: 5px 0 20px;
+}
+
+.mallMenu li p a {
+    width: 60px;
+    display: inline-block;
+    font-size: 13px;
+    color: #888;
+}
+
+.mallPic, .mallPic li, .mallRec dt, .mallRec dd {
+    float: left;
+}
+
+.mallPic {
+    width: 1020px;
+}
+
+.mallPic li:first-child img {
+    width: 610px;
+    height: 400px;
+    display: block
+}
+
+.mallPic li img {
+    width: 370px;
+    height: 190px;
+    display: block
+}
+
+.mallPic li {
+    padding: 0 0 20px 20px;
+}
+
+.mallRec {
+    padding-bottom: 30px;
+}
+
+.mallRec > div {
+    width: 477px;
+}
+
+.mallRec > div img {
+    width: 100%;
+    height: 331px
+}
+
+.mallRec dl {
+    width: 722px;
+    border-top: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+
+.mallRec dt, .mallRec dd {
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+}
+
+.mallRec dt img {
+    width: 240px;
+    height: 329px;
+}
+
+.mallRec dd img {
+    width: 240px;
+    height: 164px;
+}
+
+.mallRec a, .cinHot dt a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.mallRec a > div {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+}
+
+.mallRec a > div h3, .mallRec a > div span {
+    color: #333;
+}
+
+.mallRec a > div h3 {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 3px;
+}
+
+.mallRec a > div p {
+    color: #888;
+}
+
+.mallRec a > div span {
+    display: block;
+    padding-top: 8px;
+}
+
+.mallRec a > div em {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mallRec dd {
+    border-bottom: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    position: relative;
+}
+
+.mallShow {
+    margin-bottom: 22px;
+    border-bottom: 1px solid #e6e6e6
+}
+
+.mallShow ul li {
+    float: left
+}
+
+.mallShow ul li img {
+    width: 239px;
+    height: 270px;
+}
+
+.mallShow ul li:hover {
+    box-shadow: 0 0 5px #666;
+    z-index: 3;
+    position: relative;
+}
+
+/*--The time of selected--*/
+/*notice announcing upcoming films*/
+.selected {
+    padding-top: 47px;
+}
+
+.select {
+    background-color: #282828;
+}
+
+.sel {
+    padding: 35px 0 20px
+}
+
+.selTra, .feaList, .cinHot {
+    width: 860px;
+}
+
+.selTra > div h3, .feaList > div h3, .cinHot > div h3 {
+    float: left;
+    font-size: 22px;
+    color: #fff;
+    line-height: 1;
+    font-weight: normal;
+}
+
+.selTra > div a, .feaList > div a, .cinHot > div a {
+    display: block;
+    float: right;
+    color: #fff;
+    margin-top: 4px;
+}
+
+.selTra dl, .feaList ul, .cinHot dl {
+    padding-top: 25px;
+}
+
+.selTra dt {
+    width: 618px;
+    float: left
+}
+
+.selTra dt > a, .selTra dd a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+.selTra dt img {
+    width: 618px;
+    height: 376px;
+}
+
+.selTra dt > a em, .selTra dd em {
+    width: 56px;
+    height: 56px;
+    display: block;
+    background: url("../images/bannerBg.png") no-repeat -80px -47px;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+.selTra dt > a:hover em, .selTra dd a:hover em {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.selTra dt > h3 {
+    padding: 12px 0 0 20px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.selTra dt > h3 > a, .selTra dd i, .selGuide h4 {
+    color: #fff
+}
+
+.selTra dt > p {
+    font-size: 16px;
+    color: #d2d2d2;
+    margin: 7px 0 0 20px;
+}
+
+.selTra dd {
+    width: 230px;
+    float: right;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.selTra dd a, .selGuide div a, .feaList li dl a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.selGuide div img {
+    width: 320px;
+    height: 176px;
+}
+
+.selTra dd a img {
+    width: 230px;
+    height: 140px;
+}
+
+.selTra dd a span {
+    width: 180px;
+    height: 43px;
+    display: block;
+    background: url("../images/bannerBg.png") repeat-x 0 -153px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 40px 0 0 50px;
+    overflow: hidden;
+}
+
+.selTra dd em {
+    width: 32px;
+    height: 32px;
+    background-position: 0 -103px;
+    left: 7px;
+    bottom: 11px
+}
+
+.selTra dd i, .selTra dd b {
+    display: block;
+    max-width: 170px;
+    line-height: 1.5;
+}
+
+.selTra dd b, .feaBoxOffice > h4, .feaBoxList dd h4, .cinCommunity > h4, .global > h3 {
+    font-weight: normal;
+}
+
+.selTra dd b {
+    font-size: 12px;
+    color: #d2d2d2;
+}
+
+.selGuide, .feaBoxOffice, .cinCommunity {
+    width: 320px;
+    float: right;
+}
+
+.selGuide h4, .feaBoxOffice > h4, .cinCommunity > h4 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.selGuide dl {
+    background-color: #fff;
+}
+
+.selGuide dl {
+    height: 263px;
+}
+
+.selGuide dt, .selGuide dd, .selGuide p {
+    padding: 0 15px;
+}
+
+.selGuide dt span {
+    font-weight: bold;
+}
+
+.selGuide dt span, .selGuide dd span {
+    width: 122px;
+    display: inline-block;
+    line-height: 41px;
+}
+
+.selGuide dd.selBg {
+    background-color: #f5f5f5;
+}
+
+.selGuide dd span, .cinHotDec > div p a, .cinHot dd > div p a {
+    width: 110px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.selGuide dd span a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.selGuide dd span em {
+    width: 7px;
+    height: 13px;
+    display: inline-block;
+    background: url("../images/bannerBg.png") no-repeat -72px -13px;
+    margin-left: 10px;
+}
+
+.selGuide dd span em.up {
+    background-position: -72px 0;
+}
+
+.selGuide dd span.rank {
+    text-align: center;
+}
+
+.selGuide dd span.rank {
+    width: 90px;
+    color: #61ac36;
+}
+
+.selGuide dd span.sale {
+    width: 80px;
+    text-align: right;
+}
+
+.selGuide span.sale a {
+    width: 70px;
+    height: 22px;
+    display: inline-block;
+    border: 1px solid #888;
+    border-radius: 15px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    color: #888;
+}
+
+.selGuide span.sale a.cur {
+    background: #61ac36;
+    border-color: #61ac36;
+    color: #fff;
+}
+
+.selGuide p {
+    font-size: 12px;
+    line-height: 35px;
+    text-align: right;
+}
+
+/*--characteristic--*/
+.feature {
+    padding: 63px 0 30px;
+}
+
+.feaList > div h3, .feaList > div a, .cinHot > div h3, .cinHot > div a {
+    color: #333;
+}
+
+.feaList {
+    overflow: hidden;
+}
+
+.feaList ul {
+    width: 880px;
+}
+
+.feaList li {
+    width: 439px;
+    height: 260px;
+    float: left;
+}
+
+.feaList li dt, .feaList li dd {
+    width: 280px;
+    float: left;
+}
+
+.feaList li dt img {
+    width: 280px;
+    height: 200px;
+}
+
+.feaList li dd {
+    width: 138px;
+    padding: 0 0 2px 2px;
+}
+
+.feaList li dd a {
+    position: relative;
+}
+
+.feaList li dd img {
+    width: 138px;
+    height: 99px;
+}
+
+.feaList li dd a span {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url("../images/fea_bg.png") repeat;
+    color: #fff;
+    line-height: 99px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.feaList li dd a:hover span {
+    background: url("../images/fea_bg2.png") repeat;
+}
+
+.feaList li dd a span em {
+    font-size: 30px;
+    color: #e6e6e6;
+}
+
+.feaList li dd a span img {
+    width: 100%;
+    height: 99px;
+    display: block;
+}
+
+.feaList li h3 {
+    font-size: 16px;
+    padding-top: 6px;
+    line-height: 1.6;
+}
+
+.feaBoxOffice, .cinCommunity {
+    width: 303px;
+}
+
+.feaBoxOffice > ul {
+    height: 34px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 16px;
+}
+
+.feaBoxOffice > ul li {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.feaBoxOffice > ul li span {
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-bottom: -2px;
+}
+
+.feaBoxOffice > ul li.cur span {
+    border-bottom: 3px solid #1e7dd7;
+    color: #1e7dd7;
+    font-weight: bold;
+}
+
+.feaBoxList > p {
+    margin-top: 5px;
+    text-align: right;
+}
+
+.feaBoxList li {
+    margin-top: 19px;
+    padding-bottom: 2px;
+}
+
+.feaBoxList dt, .feaBoxList dd {
+    float: left;
+}
+
+.feaBoxList dt {
+    font-size: 28px;
+    line-height: 1;
+    color: #d2d2d2;
+}
+
+.feaBoxList dd {
+    margin-left: 9px;
+}
+
+.feaBoxList dd img {
+    width: 80px;
+    height: 120px;
+}
+
+.feaBoxList dd h4 {
+    font-size: 16px;
+    padding: 3px 0 6px;
+}
+
+.feaBoxList p {
+    color: #888;
+}
+
+.feaBoxList p em {
+    margin-top: 5px;
+}
+
+/*cinecism*/
+.cinecism {
+    padding-bottom: 20px;
+}
+
+.cinHot dt {
+    width: 450px;
+    float: left;
+}
+
+.cinHot dt img {
+    width: 450px;
+    height: 260px;
+}
+
+.cinHotDec {
+    border: 1px solid #e6e6e6;
+    border-top: none;
+    padding: 0 25px 25px;
+    height: auto;
+}
+
+.cinHotDec > div {
+    position: relative;
+    padding: 50px 10px 0 85px;
+    margin: -35px 0 0 -10px;
+    color: #888;
+}
+
+.cinHotDec > div > a {
+    width: 100%;
+    display: block;
+    color: #888;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cinHotDec > div > a img {
+    width: 70px;
+    height: 70px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.cinHotDec > div p {
+    line-height: 32px;
+}
+
+.cinHotDec > div p a, .cinHot dd > div p a {
+    width: auto;
+    max-width: 110px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #888;
+}
+
+.cinHotDec > div p em {
+    display: inline-block;
+}
+
+.cinHotDec h4 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.cinHotDec h4 {
+    padding: 20px 0;
+}
+
+.cinHotDec p {
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.cinHotDec p i, .cinHot dd > div i {
+    width: 30px;
+    height: 21px;
+    display: inline-block;
+    background: url("../images/bannerBg.png") no-repeat -86px 0;
+    margin-right: 10px;
+}
+
+.cinHot dd {
+    width: 275px;
+    float: right;
+    margin: 5px 0 40px;
+    position: relative;
+    padding-right: 100px;
+}
+
+.cinHot dd > a {
+    width: 80px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.cinHot dd > a img {
+    width: 80px;
+    height: 120px
+}
+
+.cinHot dd > div > a {
+    font-size: 16px;
+    color: #333;
+}
+
+.cinHot dd > div p {
+    color: #888;
+}
+
+.cinHot dd > div p.PT10 {
+    padding-top: 10px;
+}
+
+.cinHot dd > div p a {
+    font-size: 14px;
+    max-width: 100px;
+}
+
+.cinCommunity dd > a {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.cinCommunity dd > a img {
+    width: 303px;
+    height: 210px;
+}
+
+.cinCommunity dd > a i {
+    width: 68px;
+    height: 24px;
+    display: block;
+    background: #eb321e;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    line-height: 24px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.comDec {
+    width: 261px;
+    height: 278px;
+    border: 1px solid #e6e6e6;
+    border-top: none;
+    padding: 0 20px;
+    font-size: 13px;
+}
+
+.comDec h3 {
+    font-size: 16px;
+    padding: 33px 5px 15px;
+}
+
+.comDec p {
+    margin-bottom: 4px;
+}
+
+.comDec i {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url("../images/bannerBg.png") no-repeat -86px -21px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.comDec > a {
+    display: block;
+    padding-bottom: 8px;
+    color: #333;
+}
+
+.comDec > a.pos i {
+    height: 16px;
+    background-position: -100px -21px;
+}
+
+.comDec > p.txt {
+    color: #888;
+    line-height: 1.8;
+}
+
+.comDec > p > a {
+    width: 160px;
+    height: 36px;
+    display: block;
+    margin: 17px auto 0;
+    background: #1c7ed5;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+}
+
+.comDec > p > a:hover {
+    background: #1870c9;
+}
+
+/*--Global--*/
+.global {
+    padding: 30px 0;
+}
+
+.global > h3 {
+    font-size: 22px;
+    padding-bottom: 22px;
+}
+
+.gloList {
+    height: 654px;
+    overflow: hidden;
+    position: relative
+}
+
+/*--footer--*/
+.footer {
+    margin-top: 10px;
+    background-color: #f7f7f7;
+}
+
+.footer > span {
+    width: 100%;
+    height: 4px;
+    display: block;
+    background: url("../images/foot.png") no-repeat center 0 #337fab;
+}
+
+.foot {
+    padding-top: 40px;
+    font-size: 13px;
+}
+
+.fotLogo, .fotNav, .fotWeekly {
+    border-right: 1px solid #e1e1e1;
+}
+
+.fotLogo, .fotNav, .fotWeekly, .fotWek {
+    width: 160px;
+    min-height: 157px;
+}
+
+.fotLogo {
+    padding: 0 20px;
+}
+
+.fotLogo > div {
+    padding-bottom: 10px;
+}
+
+.fotLogo > div > a {
+    width: 136px;
+    height: 44px;
+    display: block;
+    background: url("../images/head.png") no-repeat;
+}
+
+.fotLogo ul li, .fotNav dl.fotReco dd {
+    width: 49.5%;
+    float: left;
+}
+
+.fotLogo ul li a {
+    color: #333;
+    line-height: 1.8;
+}
+
+.fotNav {
+    width: 500px;
+    padding: 0;
+}
+
+.fotNav dl {
+    padding-left: 55px;
+}
+
+.fotNav dl dt, .fotNav dl dd {
+    line-height: 2;
+}
+
+.fotNav dl dt {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.fotNav dl.fotReco {
+    width: 185px;
+}
+
+.fotNav dl dd {
+    font-size: 16px;
+}
+
+.fotNav a.sina, .fotNav a.weChat, .fotNav a.member {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-top: 8px;
+    background: url("../images/foot.png") no-repeat;
+    background-position: -140px -9px;
+}
+
+.fotNav a.weChat {
+    background-position: -170px -9px;
+}
+
+.fotNav a.member {
+    background-position: -200px -9px;
+}
+
+.fotWeekly {
+    width: 172px;
+    padding: 0 54px;
+}
+
+.fotWeekly p em {
+    display: block;
+    float: left;
+    font-size: 18px;
+}
+
+.fotWeekly p i {
+    color: #7d7d7d;
+    padding-top: 3px;
+    display: block;
+    float: right;
+}
+
+.fotWeekly p > a {
+    width: 100%;
+    height: 80px;
+    display: block;
+    margin-top: 10px;
+}
+
+.fotWeekly p > a img {
+    width: 100%;
+    height: 100%;
+}
+
+.fotWeekly > div {
+    width: 100%;
+    height: 25px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1) inset;
+    margin-top: 10px;
+    padding-top: 2px;
+}
+
+.fotWeekly > div input {
+    width: 98px;
+    height: 22px;
+    display: block;
+    float: left;
+    border: none;
+    background: transparent;
+    line-height: 22px;
+    font-size: 12px;
+    color: #a5a5a5;
+    padding: 1px 2px;
+    margin-left: 12px;
+}
+
+.fotWeekly > div a {
+    width: 54px;
+    height: 25px;
+    display: block;
+    float: right;
+    font-size: 12px;
+    color: #fff;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 20px;
+    background: #0081BC;
+}
+
+.fotWek {
+    width: 135px;
+    padding: 0 38px;
+}
+
+.fotWek p, .fotCopy, .fotCopy p a {
+    color: #7d7d7d;
+}
+
+.fotWek p em {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+.fotWek a {
+    width: 99px;
+    height: 99px;
+    display: block;
+    margin: 5px 18px 5px;
+    background: url("../images/foot.png") no-repeat -795px -9px;
+}
+
+.fotCopy {
+    padding: 30px 0 20px;
+    font-size: 12px;
+}
+
+.fotCopy p, .fotCopy > div {
+    text-align: center;
+    line-height: 2;
+}
+
+.fotCopy p span, .fotCopy p a {
+    padding: 0 6px;
+}
+
+.fotCopy > div {
+    padding-top: 12px;
+}
+
+.fotCopy > div > a {
+    width: 68px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 15px;
+    background: url("../images/foot.png") no-repeat;
+}
+
+.fotCopy > div > a.copyLeft {
+    background-position: 0 -60px;
+}
+
+.fotCopy > div > a.copyRight {
+    width: 70px;
+    background-position: -68px -60px;
+}
+
+/*----register--*/
+.register {
+    width: 100%;
+    background: url("../images/reg_bg.jpg") repeat;
+    padding: 100px 0 45px;
+}
+
+.regOuter {
+    width: 1000px;
+    min-height: 600px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 6px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.regLine {
+    width: 1px;
+    height: 482px;
+    background: url("../images/login.png") no-repeat;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    overflow: hidden;
+}
+
+.regCon {
+    padding: 30px 65px;
+}
+
+.regEnroll, .regSign {
+    width: 380px;
+    float: left;
+}
+
+.regEnroll h5, .regSign h5 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.regEnroll > ul > li {
+    width: 50%;
+    float: left;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    line-height: 32px;
+    border-bottom: 2px solid #e5e5e5;
+    cursor: pointer;
+}
+
+.regEnroll > ul > li.on {
+    color: #1689df;
+    border-color: #1689df;
+}
+
+.regEnrTxt {
+    width: 375px;
+    height: 49px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    margin-top: 23px;
+    position: relative;
+    z-index: 2;
+}
+
+.regEnrTxt_focus {
+    box-shadow: 0 0 5px 0 #6a953b;
+    color: #000;
+    background: #fff;
+}
+
+.regEnrTxt_false {
+    border: 1px solid #d21538;
+}
+
+.regEnrTxt input {
+    width: 347px;
+    border: none;
+    background: 0 0;
+    padding: 14px;
+    line-height: 21px;
+    font-size: 14px;
+    color: #a5a5a5;
+    border-radius: 4px;
+}
+
+.regEnrTxt label {
+    color: #a5a5a5;
+    position: absolute;
+    left: 15px;
+    top: 16px;
+    font-size: 14px;
+    z-index: 0;
+
+}
+
+.regEnrTxt p.reg_err {
+    width: 345px;
+    background: #ffebec;
+    border: 1px solid #e88a9b;
+    border-top: 0;
+    border-radius: 0 0 3px 3px;
+    font-size: 12px;
+    color: #d84459;
+    line-height: 22px;
+    padding: 0 15px;
+    position: absolute;
+    left: -1px;
+    top: 50px;
+    display: none;
+}
+
+.regEnrTxt > .password {
+    font-size: 12px;
+    color: #949494;
+    top: 11px;
+    right: 12px;
+    position: absolute;
+}
+
+.regEnrTxt > .password p {
+    line-height: 18px;
+}
+
+.regEnrTxt > .password i {
+    width: 14px;
+    height: 4px;
+    display: block;
+    float: left;
+    background: #c5c5c5;
+    margin: 3px 3px 0 0;
+    overflow: hidden;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.regEnrTxt > .lose i.pas1 {
+    background: #ca4004;
+}
+
+.regEnrTxt > .mid i.pas1 {
+    background: #e7ae1f;
+}
+
+.regEnrTxt > .mid i.pas2 {
+    background: #e7ae1f;
+}
+
+.regEnrTxt > .str i.pas1, .regEnrTxt > .str i.pas2, .regEnrTxt > .str i.pas3 {
+    background: #5c961d;
+}
+
+.regEnrTxt > a.verifyCode {
+    height: 34px;
+    background: #f6f6f6;
+    border: 1px solid #b6b6b6;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #333;
+    line-height: 34px;
+    padding: 0 15px;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+
+.regEnrTxt > a:hover.verifyCode {
+    background: #f0f0f0;
+}
+
+.regSex {
+    padding-top: 25px;
+    font-size: 14px;
+    color: #a5a5a5;
+    position: relative;
+}
+
+.regSex span {
+    padding-right: 15px;
+}
+
+.regSex span i {
+    width: 20px;
+    height: 17px;
+    display: inline-block;
+    background: url("../images/login.png") no-repeat -30px -231px;
+    vertical-align: middle;
+    margin: -3px 5px 0 10px;
+}
+
+.regSex span em {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url("../images/login.png") no-repeat -5px -210px;
+    vertical-align: middle;
+    margin-left: 6px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    overflow: hidden;
+}
+
+.regSex span em.female {
+    background-position: -21px -210px;
+}
+
+.regSex span.regChecked {
+    color: #333
+}
+
+.regSex span.regChecked i {
+    background-position: -5px -231px;
+}
+
+.regSex span.regChecked em {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.regSex p {
+    color: #d21538;
+    font-size: 12px;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+
+.regClause {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.regClause span, .regSignIn span {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url("../images/login.png") no-repeat -2px -24px;
+    vertical-align: middle;
+    margin-right: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.regClause span.on, .regSignIn span.on {
+    background-position: -2px 0;
+}
+
+.regClause a {
+    color: #0085e5;
+    line-height: 24px;
+}
+
+.regClause a:hover, .regEnrWrap dd > span > a:hover, .regSignIn a:hover {
+    text-decoration: underline;
+}
+
+.regEnrWrap dt {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.regEnrWrap dt a, .regSign dt a {
+    width: 257px;
+    height: 53px;
+    display: inline-block;
+    background: #0081bc;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 53px;
+    border-radius: 27px;
+}
+
+.regEnrWrap dt a:hover, .regSign dt a:hover {
+    background: #0379c8;
+}
+
+.reg_wid {
+    width: 190px;
+    float: left;
+}
+
+.reg_wid input {
+    width: 160px;
+}
+
+.reg_wid p.reg_err {
+    width: 160px;
+}
+
+.regEnrWrap dd > span {
+    display: block;
+    float: left;
+    margin: 23px 0 0 12px;
+}
+
+.regEnrWrap dd > span > em {
+    width: 120px;
+    height: 49px;
+    display: inline-block;
+    background: #98CB66;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 8px;
+    font-weight: bold;
+    line-height: 49px;
+    margin-right: 6px;
+}
+
+.regEnrWrap dd > span > a {
+    font-size: 12px;
+    color: #08c;
+    line-height: 49px;
+}
+
+.regSign {
+    float: right;
+}
+
+.regSign > p {
+    padding: 7px 0 3px 0;
+    font-size: 16px;
+}
+
+.regSignIn {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.regSignIn a {
+    display: block;
+    float: right;
+    color: #0085e5;
+    line-height: 24px;
+}
+
+.regSign dt, .regSign ul {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.regSign ul {
+    padding-top: 35px;
+}
+
+.regSign li h4 {
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.regSign li a {
+    width: 52px;
+    height: 50px;
+    display: inline-block;
+    background: url("../images/login.png") no-repeat;
+    margin: 0 10px;
+}
+
+.regSign li a.sina {
+    background-position: -2px -48px;
+}
+
+.regSign li a.QQ {
+    background-position: -2px -98px;
+}
+
+/*goTop*/
+
+.goTop a {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    display: none;
+    background: url("../images/plugins.png") no-repeat -54px -255px;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    z-index: 10;
+}
+
+.goTop a:hover {
+    background-position: 0 -255px;
+}
